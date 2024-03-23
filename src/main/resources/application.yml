@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tododb
+    username: sagar
+    password: sagar123
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+#  flyway:
+#    enabled: true
+#    url: jdbc:postgresql://localhost:5432/bankdb
+#    user: sagar
+#    password: sagar123
+#    locations: classpath:db/migration
+
+logging:
+  level:
+    org:
+      springframework:
+        security=DEBUG:
