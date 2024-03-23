@@ -1,4 +1,4 @@
-package com.todo.simpletodo.request;
+package com.todo.simpletodo.dtos.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

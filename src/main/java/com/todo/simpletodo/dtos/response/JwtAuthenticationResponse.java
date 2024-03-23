@@ -1,4 +1,4 @@
-package com.todo.simpletodo.response;
+package com.todo.simpletodo.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

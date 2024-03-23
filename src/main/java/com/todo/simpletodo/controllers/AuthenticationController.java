@@ -1,11 +1,10 @@
 package com.todo.simpletodo.controllers;
 
-import com.todo.simpletodo.request.SigninRequestDto;
-import com.todo.simpletodo.request.SignupRequestDto;
-import com.todo.simpletodo.response.JwtAuthenticationResponse;
+import com.todo.simpletodo.dtos.request.SigninRequestDto;
+import com.todo.simpletodo.dtos.request.SignupRequestDto;
+import com.todo.simpletodo.dtos.response.JwtAuthenticationResponse;
 import com.todo.simpletodo.services.AuthenticationService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
